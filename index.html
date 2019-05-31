@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="
+	sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+	</script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+	</script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="script.js">
+</head>
+<body>
+
+	<header class="header">
+		<div class="logo-mum">
+			<img class="logo" src="Asset 6.svg">
+		</div>
+<div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </div>
+
+</div>
+
+
+<div class="burger" onclick="openNav() ">
+      <div class="bar-1"></div>
+      <div class="bar-2"></div>
+      <div class="bar-3"></div>
+    </div>
+
+	</header>
+	<main>
+		<section>
+			
+
+			<div class="data-mum">
+				<div class="data">
+					<h1 class="data-h1">27.11.</h1>
+					<p class="data-p">Vintage Auto Exhibition</p>
+				</div>
+			</div>
+			<div class="slide-1-mum">
+				<button class="button-1"  class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+				<button class="button-2" class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+				<img class="mySlides" src="Asset 2.png">
+				<img class="mySlides" src="gt.jpg">
+				
+			</div>
+		</section>
+		<section class="services">
+			<header class="services-header">THE CORNER GRAGE FOR COLECTOR</header>
+			<div class="services-div-mum">
+				<div class="services-div">
+					<img class="services-logo" src="Asset 5.svg"></img>
+					<P class="services-p">MODIFY</P>
+				</div>
+				<div class="services-div">
+					<img class="services-logo" src="Asset 4.svg"></img>
+					<P class="services-p">BUY</P>
+				</div>
+				<div class="services-div">
+					<img class="services-logo" src="Asset 3.svg"></img>
+					<P class="services-p">REPAIR</P>
+				</div>
+			</div>	
+		</section>
+		<section class="ilustration">
+			<div class="mountain-div">
+				<img class="mountain" src="mountain.svg">
+			</div>
+			<div class="street-div">
+				<img class="street" src="street.svg">
+			</div>
+			<div  class="way-mum">
+				<img class="way" src="way.svg">
+			</div>
+			<div class="van-mum">
+				<img class="van" src="van.svg">
+			</div>
+		</section>
+		<section class="contact-a">
+			<div class="map-mum">
+				<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10005.010583859412!2d44.743415505151724!3d41.79582779491074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40446f5f7676bc5b%3A0xf1eb150ce7a15089!2saxali+digomi!5e0!3m2!1sen!2sge!4v1559187201292!5m2!1sen!2sge" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+			<form class="contact">
+				<div class="contact-1">
+					<div class="box"></div>
+					<div class="contact-title">CONTACT INFROMATION</div>
+					<div>
+						<div class="contact-p">click to view</div>
+						<div class="media">
+							<div class="google-mum">
+								<img src="google.svg" class="google"></img>
+								
+							</div>
+							<div class="facebook-mum">
+								<img src="facebook.svg" class="facebook"></img>
+								
+							</div>
+							<div class="twiter-mum">
+								<img src="twiter.svg" class="twiter"></img>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="contact-2">
+					<div class="touch">
+						GET  IN TOUCH
+					</div>
+					<input class="input" type="text" name="name" placeholder="name">
+					<p class="username-error">This field is required</p>
+					<input class="input" type="text" name="email" placeholder="email">
+					<p class="username-error">This field is required</p>
+					<input class="input" type="text" name="subject" placeholder="subject">
+					<p class="username-error">This field is required</p>
+					<input class="input-text" type="text" name="text" placeholder="text">
+					<p class="username-error">This field is required</p>
+				</div>
+				<div class="custom">
+					<div class="radio">
+						<label class="container-1">male
+ 							<input type="checkbox" checked="checked">
+ 							<span class="checkmark-1"></span>
+						</label>
+
+						<label class="container-1">female
+					 	   <input type="checkbox">
+					 		<span class="checkmark-1"></span>
+						</label>
+					</div>
+					<div class="contact-b">
+					<label class="container-3">Sign up for newsletter:</label>
+					<label class="container"> <p class="recive">recive images</p>
+ 						<input type="checkbox" checked="checked">
+ 						<span class="checkmark"></span>
+					</label>
+
+					<label class="container">recive promotions
+					  <input type="checkbox">
+					  <span class="checkmark"></span>
+					</label>
+
+					<label class="container">recive updates
+					  <input type="checkbox">
+					  <span class="checkmark"></span>
+					</label>
+
+					<label class="container">recive job offers
+					  <input type="checkbox">
+					  <span class="checkmark"></span>
+					</label>
+				</div>
+
+					<button class="send">send</button>
+				</div>
+			</form>
+		</section>
+	</main>
+	<footer></footer>
+
+
+	<script>
+
+/* Open when someone clicks on the span element */
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  x[slideIndex-1].style.display = "block"; 
+}
+
+
+
+</script>
+
+
+ <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <!-- Custom JavaScript/jQuery File -->
+  <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,767 @@
+.header{
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	width: 100%;
+	height: 115px
+}
+
+.burger{
+	width: 40px;
+	height: 50px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	flex-direction: column;
+	margin-right: 2%;
+	z-index: 9999999;
+	cursor: pointer;
+
+
+}
+.bar-1{
+	width: 30px;
+	height: 3px;
+	background-color: white;
+
+}
+.bar-2{
+	width: 25px;
+	height: 3px;
+	background-color: white;
+	margin-top: 5px
+}
+
+.bar-3{
+	width: 30px;
+	height: 3px;
+	background-color: white;
+	margin-top: 5px;
+}
+.slide-1-mum{
+	width: 100%
+}
+.mySlides{
+	width: 100%;
+}
+.button-2{
+	margin-left: 95%;
+	position: absolute;
+	margin-top: 30%;
+	width: 5%;
+	height: 80px;
+	border-top-left-radius: 50%;
+	border-bottom-left-radius: 50%;
+	background-color: white;
+	border:none;
+
+}
+.button-1{
+	position: absolute;
+	margin-top: 30%;
+	width: 5%;
+	height: 80px;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+	background-color: white;
+	border:none;
+
+}
+.button-2:hover{
+	background-color: #EBE8DE
+}
+.button-1:hover{
+	background-color: #EBE8DE
+}
+.logo{
+	width: 20%;
+	margin-top: 30px;
+	margin-left: 10px;
+
+}
+.logo-mum{
+	width: 100%
+}
+.data-mum{
+	width: 100%;
+	max-height: 133%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	position: absolute;
+	color: white
+}
+.data{
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+	margin-right: 6%;
+	margin-top: 45%
+}
+.data-p{
+	font-size: 150%
+}
+.services-header{
+	font-size: 400%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+}
+.services-div{
+	width: 300px;
+	height: 307px;
+	background-color: #EBE8DE;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.services-div-mum{
+	display: flex;
+	justify-content:space-around;
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 100px
+}
+.services-logo{
+	width: 40%
+}
+.services-p{
+	font-size: 170%;
+	margin-top: 50px
+}
+.mountain{
+	margin-top: 100px;
+	width: 100%
+}
+.mountain-mum{
+	width: 100%;
+}
+.street{
+	width: 70%;
+	margin-left: 15%
+
+}
+.street-div{
+	width: 100%;
+	margin-top: -200px
+
+}
+.way{
+	width: 100%;
+}
+.way-mum{
+	width: 100%
+}
+.van{
+	width: 20%;
+	margin-left: 50%
+}
+.van-mum{
+	width: 100%;
+	margin-top: -185px
+}
+.map-mum{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.map{
+	width: 80%;
+	height:700px
+
+
+}
+.contact-1{
+	width: 450px;
+	background-color: #EBE8DE;
+	height: 100%;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.contact{
+	width: 950px;
+	height: 500px;
+	background-color: white;
+	margin-top: -400px;
+	position: absolute;
+	margin-left: 17%;
+	background-color: white
+}
+.contact-title{
+	font-size: 200%;
+	margin-left: 20%;
+	margin-top: -40px
+
+
+
+}
+.contact-p{
+	font-size: 200%;
+	text-align: center;
+	width: 40%;
+	margin-left: 30%
+}
+.box{
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	opacity: 0.4;
+	margin-left: 10%;
+	margin-top: -175px
+
+}
+.media{
+	width: 100%;
+	margin-top: 30px
+}
+.facebook-mum{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 1px black solid;
+	display: flex;
+	justify-content: center;
+	margin-left: 5%
+}
+.google-mum{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 1px black solid;
+	display: flex;
+	justify-content: center;
+	margin-left: 30%
+}
+.twiter-mum{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 1px black solid;
+	display: flex;
+	justify-content: center;
+	margin-left: 5%
+}
+.facebook{
+	width: 40%
+}
+.google{
+	width: 100%
+}
+.twiter{
+	width: 100%
+}
+.touch{
+	font-size: 200%;
+	margin-left: 30%;
+	
+}
+form{
+	display: flex;
+	justify-content: center;s
+	width: 100%
+}
+.contact-2{
+	width: 64%;
+	display: flex;
+	flex-direction: column
+}
+.input{
+	height: 40px;
+	width: 35%;
+	background-color:#F2F2F2;
+	border: none;
+	margin-top: 30px;
+	margin-left: 7%;
+}
+.input-text{
+	height: 100px;
+	width: 35%;
+	background-color:#F2F2F2;
+	border: none;
+	margin-top: 30px;
+	margin-left: 7%
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-left: 20%;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+ 
+}
+.container-3{
+  display: block;
+  position: relative;
+  padding-left: 0px;
+  margin-left: 20%;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+
+ 
+}
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: white;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+.custom{
+	margin-top: 200px;
+	margin-left: -30%;
+	width: 50%;
+
+}
+
+
+
+
+/* Customize the label (the container) */
+.container-1 {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container-1 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom radio button */
+.checkmark-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container-1:hover input ~ .checkmark-1 {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container-1 input:checked ~ .checkmark-1 {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark-1:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container-1 input:checked ~ .checkmark-1:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container-1 .checkmark-1:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+.radio{
+	display: flex;
+	justify-content: space-around;
+	margin-top: -100px;
+	margin-left: 20%s;
+	margin-bottom: 50px
+
+}
+.send{
+	width: 80px;
+	margin-left: 170px;
+	margin-top: 40px
+}
+
+
+.overlay {
+     
+  height: 100%;
+  width: 0;
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  opacity:0.8; 
+  background-color: #ffffff; 
+  overflow-x: hidden; 
+  transition: 0.5s; 
+}
+
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center; 
+  margin-top: 30px;
+}
+
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: black;
+  display: block; 
+  transition: 0.3s; 
+}
+
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+.ilustration{
+	height: 300px;
+	max-width: 100%
+}
+.username-error{
+	color: red;
+	margin-left: 10%;
+	display: none;
+
+}
+@media screen and (max-width: 1360px){
+	.services-div-mum{
+		width: 80%;
+		margin-left: 7%
+	}
+	.contact{
+		margin-left: 13%
+	}
+}
+@media screen and (max-width: 1290px){
+
+	.map{
+		width: 90%
+	}
+}
+@media screen and (max-width: 1190px){
+	.contact{
+		margin-left: 10% 
+	}
+	.van{
+		margin-top: 30px
+	}
+}
+@media screen and (max-width: 1155px){
+	.services-header{
+		font-size: 350%
+	}
+	.services-div-mum{
+		width: 100%;
+		margin-left:0%
+	}
+	.contact{
+		margin-left: 15%;
+		width: 800px
+	}
+	.contact-1{
+		display: none;
+	}
+	.van{
+		margin-top: 40px
+	}
+	.street{
+		margin-top: 30px
+	}
+}
+@media screen and (max-width: 1020px){
+	.services-header{
+		font-size: 350%
+	}
+	.contact{
+		margin-left: 10%;
+		width: 750px
+	}
+}
+@media screen and (max-width: 990px){
+	.services-header{
+		font-size: 350%;
+		width:60%;
+		margin-left: 25%
+	}
+}
+
+@media screen and (max-width: 920px){
+	.services-div-mum{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.services-div{
+		margin-top: 40px
+	}
+	.contact{
+		margin-left: 7%;
+		width: 700px;
+		background-color:#EBE8DE; 
+
+	}
+	.contact-b{
+		background-color: #EBE8DE;
+	}
+	.van{
+		margin-top: 50px
+	}
+	.street{
+		margin-top: 50px
+	}
+
+@media screen and (max-width: 880px){
+	.services-header{
+		font-size: 300%
+	}
+	.van{
+		margin-top: 70px
+	}
+	.street{
+		margin-top: 70px
+	}
+}
+@media screen and (max-width: 800px){
+	.data{
+		margin-top: 40%
+	}
+	.contact{
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+		width: 60%;
+		margin-left: 20%
+	}
+	.custom{
+		background-color:#EBE8DE; 
+		width: 100%;
+		margin-left: 0.01%;
+		margin-top: -100
+	}
+	.radio{
+		background-color:#EBE8DE;  
+		padding-left: 80px;
+		padding-right: 80px;
+		padding-top: 100px
+
+	}
+
+	.contact-2{
+		margin-top: 500px;
+		width: 100%;
+
+
+	}
+
+	.input {
+		width: 60%;
+		margin-left: 10%
+	}
+	.input-text{
+		width: 60%;
+		margin-left: 10%
+	}
+	.touch{
+		margin-left: 20%
+	}
+	.button-1{
+		margin-top: 20%
+	}
+	.button-2{
+		margin-top: 20%
+	}
+}
+@media screen and (max-width: 760px){
+	.services-header{
+		font-size: 250%
+	}
+}
+@media screen and (max-width: 660px){
+	.van{
+		margin-top: 90px
+	}
+	.street{
+		margin-top: 90px
+	}
+	.data{
+		margin-top: 30%; 
+	}
+	.data-h1{
+		font-size: 120%;
+		margin-top: 35%
+	}
+	.data-p{
+		font-size: 120%;
+		margin-top:
+	}
+}
+@media screen and (max-width: 630px){
+	.services-header{
+		font-size: 200%
+	}
+}
+@media screen and (max-width: 590px){
+	.van{
+		margin-top: 100px
+	}
+	.street{
+		margin-top: 100px
+	}
+}
+@media screen and (max-width: 530px){
+	.van{
+		margin-top: 110px
+	}
+	.street{
+		margin-top: 120px
+	}
+}
+@media screen and (max-width: 510px){
+	
+	.van{
+		margin-top: 110px
+	}
+	.street{
+		margin-top: 135px
+	}
+	.contact{
+		width: 80%;
+		margin-left: 10%
+	}
+	.services-header{
+		width:80%;
+		margin-left: 15%
+	}
+	.container{
+		margin-left: 10%
+	}
+	.data-h1{
+		margin-top: 25%
+	}
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+@media screen and (max-width: 420px){
+	.data-h1{
+		margin-top: 13%
+	}
+}
+@media screen and (max-width: 320px){
+
+	.van{
+		margin-top: 130px
+	}
+	.street{
+		margin-top: 150px
+	}
+	.touch{
+		width: 100%;
+		margin-left: 0
+	}
+}
+@media screen and (max-width: 370px){
+
+	.radio{
+		padding-top: 110px
+	}
+}
